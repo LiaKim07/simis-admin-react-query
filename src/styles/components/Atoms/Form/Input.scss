@@ -1,0 +1,120 @@
+@import '../../../main';
+
+$color-disabled: rgba(189, 192, 197, .5);
+$color-default: rgb(146, 150, 154);
+$color-active: rgb(39, 46, 54);
+$color-focused: rgb(61, 111, 158);
+
+input {
+    border: none;
+    width: 100%;
+    font-size: 12px !important;
+    font-weight: 400;
+    // color: color(semi-black);
+    padding: 0.65rem 01rem;
+
+    &:focus-visible {
+        outline: none;
+        // border:1px solid rgb(100, 97, 97);
+        background-color: white;
+        border-bottom: 1px solid hsl(0, 10%, 90%);
+    }
+}
+
+.bg-styles {
+    border-radius: 2px;
+    outline: 1px solid color(light-gray);
+    background-color: color(light-gray);
+
+    &:focus-visible {
+        outline: 1px solid hsl(0, 10%, 90%) !important;
+    }
+
+
+}
+
+.textarea {
+    border: none;
+    width: 100%;
+    font-size: 12px !important;
+    font-weight: 400;
+    // color: color(semi-black);
+    padding: 0.65rem 01rem;
+
+    &:focus-visible {
+        outline: none;
+        // border:1px solid rgb(100, 97, 97);
+        background-color: white;
+        border: 1px solid blue;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+.input-small {
+    height: 15px;
+    width: 60px;
+}
+
+.label-before {
+    line-height: 20px;
+    font-size: 12px;
+    top: -10px;
+    background: #fff;
+    padding: 0 6px;
+    left: 9px;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 15px;
+
+    label::before {
+        content: attr(title);
+        position: absolute;
+        top: 0;
+        left: 15px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #777;
+        transition: 300ms all;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        line-height: 40px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #222;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+
+        &:focus {
+            outline: 0;
+            border-color: #2684FF;
+        }
+
+        &:valid+label::before {
+            @extend .label-before;
+            content: attr(data-title);
+        }
+
+        &:focus+label::before {
+            @extend .label-before;
+            color: #2684FF;
+        }
+    }
+}

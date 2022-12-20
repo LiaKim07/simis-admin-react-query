@@ -1,0 +1,68 @@
+@import '../../main';
+
+span.text-xs {
+    letter-spacing: 0px !important;
+}
+
+.drop-content-btn {
+    border-radius: 0px !important;
+}
+
+.contentrows {
+    cursor: pointer;
+}
+
+.table-caption {
+    display: table-caption;
+}
+
+.headerclick {
+    cursor: pointer;
+}
+
+.subtable-center {
+    text-align: center;
+}
+
+td span[class^='circle'] {
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+
+    &.circle-fail {
+        background-color: #FF0000;
+    }
+
+    &.circle-success {
+        background-color: #26A53F;
+    }
+}
+
+td.sortedasc::after {
+    content: "\25b2";
+}
+
+td.sorteddesc::after {
+    content: "\25bc";
+}
+
+.subtableTd {
+    padding: 0 !important;
+}
+
+.btn-green-opacity {
+    background: #4ECB711A;
+    color: #4ECB71;
+}
+
+.btn-red-opacity {
+    background: #F21E1E1A;
+    color: #F21E1E;
+}
+
+.product-subtable-col-color {
+    color: #9E41D6;
+}

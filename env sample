@@ -1,0 +1,7 @@
+HOST=localhost
+# VITE_API_URL=https://www.bagalt.lt
+VITE_API_URL=https://www.simis.itvs.lt/api/v1
+VITE_CLOUDINARY_URL="https://api.cloudinary.com/v1_1/demo/image/upload"
+VITE_CLOUDINARY_API_KEY="567132351278595"
+VITE_CLOUDINARY_PRESET="dhhj6cli"
+VITE_CLOUDINARY_NAME= "didrjopyl"

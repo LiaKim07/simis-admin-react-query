@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="24" fill="#EEF1F4"/>
+<path opacity="0.601911" fill-rule="evenodd" clip-rule="evenodd" d="M18 15H30V19H18V15ZM17 20H31C32.66 20 34 21.34 34 23V29H30V33H18V29H14V23C14 21.34 15.34 20 17 20ZM19.9999 31H27.9999V26H19.9999V31ZM30.9999 24C30.4499 24 29.9999 23.55 29.9999 23C29.9999 22.45 30.4499 22 30.9999 22C31.5499 22 31.9999 22.45 31.9999 23C31.9999 23.55 31.5499 24 30.9999 24Z" fill="#212529"/>
+<mask id="mask0_91_4417" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="14" y="15" width="20" height="18">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 15H30V19H18V15ZM17 20H31C32.66 20 34 21.34 34 23V29H30V33H18V29H14V23C14 21.34 15.34 20 17 20ZM19.9999 31H27.9999V26H19.9999V31ZM30.9999 24C30.4499 24 29.9999 23.55 29.9999 23C29.9999 22.45 30.4499 22 30.9999 22C31.5499 22 31.9999 22.45 31.9999 23C31.9999 23.55 31.5499 24 30.9999 24Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_91_4417)">
+</g>
+</svg>

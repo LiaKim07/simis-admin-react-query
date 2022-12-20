@@ -1,0 +1,23 @@
+@import '../../../main';
+
+.text-dark-blue {
+    color: color(dark-blue);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 20px !important;
+}
+
+.bg-smoth-grey {
+    background: #F8FAFB;
+}
+
+.textfield-underline {
+    border-bottom: 1px solid #E7E7E7;
+    padding: 2px;
+}
+
+.text-justify{
+    text-align: justify;
+}

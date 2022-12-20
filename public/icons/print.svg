@@ -1,0 +1,8 @@
+<svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.601911" fill-rule="evenodd" clip-rule="evenodd" d="M3.99976 0H15.9998V4H3.99976V0ZM3 5H17C18.66 5 20 6.34 20 8V14H16V18H4V14H0V8C0 6.34 1.34 5 3 5ZM5.99992 16H13.9999V11H5.99992V16ZM16.9999 9C16.4499 9 15.9999 8.55 15.9999 8C15.9999 7.45 16.4499 7 16.9999 7C17.5499 7 17.9999 7.45 17.9999 8C17.9999 8.55 17.5499 9 16.9999 9Z" fill="#212529"/>
+<mask id="mask0_106_1315" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="18">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.99976 0H15.9998V4H3.99976V0ZM3 5H17C18.66 5 20 6.34 20 8V14H16V18H4V14H0V8C0 6.34 1.34 5 3 5ZM5.99992 16H13.9999V11H5.99992V16ZM16.9999 9C16.4499 9 15.9999 8.55 15.9999 8C15.9999 7.45 16.4499 7 16.9999 7C17.5499 7 17.9999 7.45 17.9999 8C17.9999 8.55 17.5499 9 16.9999 9Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_106_1315)">
+</g>
+</svg>
